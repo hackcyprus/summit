@@ -68,13 +68,20 @@ practical and theoretical knowledge to an audience hungry to learn.">
 
 <body>
 <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
 
-  ga('create', 'UA-44999116-32', 'auto');
-  ga('send', 'pageview');
+    ga('create', 'UA-44999116-32', 'auto');
+    ga('send', 'pageview');
 
 
 </script>
@@ -84,9 +91,10 @@ practical and theoretical knowledge to an audience hungry to learn.">
 </div>
 
 
-<section id="hero"  data-vide-bg="assets/videos/bg.mp4"
-         data-vide-options="loop: true, muted: true, position: 0% 0%"  class="hero-section bg1 bg-cover window-height light-text">
-    <div style="position: absolute; top:0; left:0; right:0; bottom:0; background: black; opacity: 0.7;">
+<section id="hero" data-vide-bg="assets/videos/bg.mp4"
+         data-vide-options="loop: true, muted: true, position: 0% 0%"
+         class="hero-section bg1 bg-cover window-height light-text">
+    <div style="position: absolute; top:0; left:0; right:0; bottom:0; background: black; opacity: 0.7; min-height:100vh;">
     </div>
     <ul class="socials-nav">
         <li class="socials-nav-item"><a href="https://twitter.com/cyentlink" target="_blank"><span
@@ -97,30 +105,33 @@ practical and theoretical knowledge to an audience hungry to learn.">
     </ul>
     <div class="heading-block centered-block align-center">
         <div class="container">
-            <h5 class="heading-alt" style="margin-bottom: 8px;"><span class="fa fa-calendar-o base-clr-txt"></span>18 -
-                19 November
-                <span class="fa fa-map-marker base-clr-txt" style="margin-left: 14px;"></span>Cyprus</h5>
-            <h1 class="extra-heading"><img style="max-width:600px;" src="assets/img/hcs.svg"></h1>
-            <h3><strong>Let's talk code</strong></h3>
-            <h4>#HackCyprusSummit</h4>
 
-            <div class="btns-container">
-                <a href="https://www.facebook.com/groups/hackcyprus/" target="_blank" class="btn btn-md">
-                    Join the discussion
+            <img class="lets-talk" src="assets/img/lets-talk-code.png">
+            <h5 class="heading-alt" style="margin-bottom: 10px; "><span class="fa fa-calendar-o base-clr-txt"></span>18
+                -
+                19 November
+
+                <span class="fa fa-map-marker base-clr-txt" style="margin-left: 14px;"></span>Cyprus</h5>
+            <div style="max-width:700px;  margin:0 auto; margin-bottom:10px; padding-top:10px">
+                <img style="width:100%; max-width:600px;" src="assets/img/hcs.svg">
+            </div>
+
+            <div class="btns-container" style="padding-top:10px">
+                <a href="https://cyentlink.yapsody.com/event/index/166546/hack-cyprus-summit" target="_blank"
+                   class="btn book">
+                    Book Your Tickets Now
                 </a>
                 <br><br>
-                <h5><a href="https://docs.google.com/forms/d/e/1FAIpQLSf2mAJr9WjHrX4OsW11hybcvuf9p3VFQc97eTLNMpzOPlCqqg/viewform">
-                    CALL FOR PROPOSALS
-                </a></h5>
-                    <br><br>
-                <div class="row">
+
+                <br><br>
+                <div class="row sponsors">
                     <div class="col-sm-6">
-                        <h5>Sponsors</h5>
+                        <h6>Sponsors</h6>
                         <hr>
                         <img src="assets/img/mindgeek.png" style="width:250px;">
                     </div>
                     <div class="col-sm-6">
-                        <h5>Partners</h5>
+                        <h6>Partners</h6>
                         <hr>
                         <img src="assets/img/ergodotisi.png" style="width:250px;">
                     </div>
@@ -130,6 +141,528 @@ practical and theoretical knowledge to an audience hungry to learn.">
         </div>
     </div>
 </section>
+
+<section class="speakers" style="background-image:url('assets/img/bg.jpg')">
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <h2>Speakers</h2>
+            </div>
+            <div class="col-sm-6 col-md-6 col-lg-4">
+                <a data-toggle="modal" data-target="#carmen"> <img src="assets/img/speakers/carmen.png"></a>
+            </div>
+            <div class="col-sm-6 col-md-6 col-lg-4">
+                <a data-toggle="modal" data-target="#konstantinos"> <img
+                        src="assets/img/speakers/konstantinos-papageorgiou.png"></a>
+            </div>
+            <div class="col-sm-6 col-md-6 col-lg-4">
+                <a data-toggle="modal" data-target="#leonid"> <img src="assets/img/speakers/leonid.png"></a>
+            </div>
+            <div class="col-sm-6 col-md-6 col-lg-4">
+                <a data-toggle="modal" data-target="#milko"> <img src="assets/img/speakers/milko.png"></a>
+            </div>
+            <div class="col-sm-6 col-md-6 col-lg-4">
+                <a data-toggle="modal" data-target="#runesec"> <img src="assets/img/speakers/runesec.png"></a>
+            </div>
+            <div class="col-sm-6 col-md-6 col-lg-4">
+                <a data-toggle="modal" data-target="#theo">
+                    <img src="assets/img/speakers/theo-andreou.png">
+                </a>
+            </div>
+            <div class="col-sm-6 col-md-6 col-lg-4">
+                <a data-toggle="modal" data-target="#alex">
+                    <img src="assets/img/speakers/alex.jpg">
+                </a>
+            </div>
+
+            <div class="col-sm-6 col-md-6 col-lg-4">
+                <a data-toggle="modal" data-target="#stelios">
+                    <img src="assets/img/speakers/stelios.jpg">
+                </a>
+            </div>
+            <div class="col-sm-6 col-md-6 col-lg-4">
+                <a data-toggle="modal" data-target="#toumbas"> <img src="assets/img/speakers/toumbas.jpg"></a>
+            </div>
+            <div class="col-sm-6 col-md-6 col-lg-4">
+                <a data-toggle="modal" data-target="#simos"> <img src="assets/img/speakers/simos.jpg"></a>
+            </div>
+            <div class="col-sm-6 col-md-6 col-lg-4">
+                <a data-toggle="modal" data-target="#vasilis"> <img src="assets/img/speakers/vasilis.jpg"></a>
+            </div>
+
+            <div class="col-sm-6 col-md-6 col-lg-4">
+                <a data-toggle="modal" data-target="#workshop"> <img src="assets/img/speakers/valentinos-kyriakos.jpg"></a>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<div id="carmen" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <img src="assets/img/speakers/modal/carmen.jpg">
+            <div class="header">
+                <h4><span>{</span> Deepmind Health </h4>
+                <h6> Carmen Ruiz Vicente</h6>
+                <p>Software Engineer, Deepmind</p>
+            </div>
+            <div>
+                <p>
+                    Carmen Ruiz Vicente is a software engineer at DeepMind Health, where she works on technologies that
+                    help improve patient healthcare. Previously, she was a member of Google beacon platform that
+                    integrates beacon technology with first and third party apps, and Google’s privacy engineering team.
+                    Prior to joining Google in 2013, she was a post-doctoral researcher at Universitat Oberta de
+                    Catalunya (Spain).
+                </p>
+                <p>
+                    Carmen completed her Ph.D. at the Center for Data Intensive Systems in Aalborg University, Denmark.
+                </p>
+                <div class="social">
+                    <a href="https://www.linkedin.com/in/carmrui/" target="_blank"><i class="fa fa-linkedin-square"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="konstantinos" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <img src="assets/img/speakers/modal/konstantinos.jpg">
+            <div class="header">
+                <h4><span>{</span> Android development with Kotlin: faster, easier, and more fun </h4>
+                <h6> Konstantinos Papageorgiou</h6>
+                <p>Engineering Leed, Acasus</p>
+            </div>
+            <div>
+
+                <p>Konstantinos is a software developer with extensive experience in Geographic Information Systems,
+                    database design,
+                    and mobile development. After studying Computer Engineering and Informatics at the University of
+                    Patras, he worked
+                    as a freelancer and a consultant. For the last five years, he has been working primarily as a mobile
+                    developer.</p>
+                <p>He joined Acasus in 2017 and helped set up the firm’s engineering division. Prior to that, he worked
+                    at a
+                    GIS startup developing products in collaboration with governments and the private sector.</p>
+
+                <div class="social">
+                    <a href="https://www.linkedin.com/in/papageorgiouk/" target="_blank"><i
+                            class="fa fa-linkedin-square"></i></a>
+                    <a href="https://twitter.com/papageorgiouk" target="_blank"><i class="fa fa-twitter-square"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="leonid" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <img src="assets/img/speakers/modal/leonid.jpg">
+            <div class="header">
+                <h4><span>{</span> Evolution of deploy.sh</h4>
+                <h6> Leonid Mamchenkov
+                </h6>
+                <p> CTO, Qobo Ltd</p>
+            </div>
+            <div>
+
+                <p>Web developer, system administrator, DevOps engineer,
+                    Open Source advocate with 20+ years of experience.
+                </p>
+
+                <div class="social">
+                    <a href="https://www.linkedin.com/in/mamchenkov/" target="_blank"><i
+                            class="fa fa-linkedin-square"></i></a>
+                    <a href="https://twitter.com/mamchenkov" target="_blank"><i class="fa fa-twitter-square"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="milko" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <img src="assets/img/speakers/modal/milko.jpg">
+            <div class="header">
+                <h4><span>{</span> Circumventing Adblock for fun and profit</h4>
+                <h6> Milko Todorov
+                </h6>
+                <p> System Engineer, Mindgeek</p>
+            </div>
+            <div>
+
+                <p>Milko worked for the past 7 years on building scalable, distributed systems for some of the largest
+                    online properties out there. I've driven and integrated from Hadoop and Hive (on Tez), to HP
+                    Vertica, to Mesos & Docker. Systems design is my work, problem solving and S/H optimization is my
+                    passion. Currently I'm in a Systems Engineer@ Mindgeek, which I find gives me a unique angle to
+                    impact the business I'm part of every day.
+
+                </p>
+                <p>
+                    <b>Talk Summary:</b>
+                    In our quest for fair monetization, we went to war with today's online business' biggest bully -
+                    Adblock. And we came out smugger and richer! Here's how we did it.
+                </p>
+
+                <div class="social">
+                    <a href="https://www.linkedin.com/in/milko-todorov-37911936/" target="_blank"><i
+                            class="fa fa-linkedin-square"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="runesec" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <img src="assets/img/speakers/modal/runesec.jpg">
+            <div class="header">
+                <h4><span>{</span>Common Security Pitfalls for Web Developers
+                </h4>
+                <h6>Simon Loizides, Marios Nicolaides, Nicolas Markitanis
+                </h6>
+                <p> Penetration Testers, RUNESEC</p>
+            </div>
+            <div>
+                <h5>Simon Loizides</h5>
+                <p>Simon Loizides is a Pentester at RUNESEC, a Cypriot company specializing in offensive Information
+                    Security Assessment services. He graduated with a BSc (Hons.) in Computer Science from King's
+                    College London. He is interested in post-exploitation and lateral movement (in both the virtual and
+                    physical worlds), and likes to climb trees when he can.
+                </p>
+                <p>
+                    He is one of the 4 chapter leaders of OWASP Cyprus, a global non-profit dedicated to improving the
+                    security of web and mobile applications.
+                </p>
+                <div class="social">
+                    <a href="https://www.linkedin.com/in/simon-loizides/" target="_blank"><i
+                            class="fa fa-linkedin-square"></i></a>
+                    <a href=" https://www.github.com/s3nn"
+                       target="_blank"><i
+                            class="fa fa-github-square"></i></a>
+                </div>
+
+                <hr>
+
+
+                <h5>Marios Nicolaides</h5>
+                <p>Marios Nicolaides is currently working as a Penetration Tester at RUNESEC, a Cypriot company
+                    specializing in offensive Information Security Assessment services. Marios holds a BSc Computer
+                    Science degree from Northumbria University and an MSc degree in Cyber Security from the University
+                    of York. He is passionate about web application security and likes to spend his free time mastering
+                    his backgammon skills.
+                </p>
+                <p>
+                    He is one of the 4 chapter leaders of OWASP Cyprus, a global non-profit dedicated to improving the
+                    security of web and mobile applications.
+                <p>
+
+                <div class="social">
+                    <a href=" https://www.linkedin.com/in/m-nicolaides/" target="_blank"><i
+                            class="fa fa-linkedin-square"></i></a>
+                    <a href="https://www.github.com/styx00"
+                       target="_blank"><i
+                            class="fa fa-github-square"></i></a>
+                </div>
+
+                <hr>
+
+
+                <h5> Nicolas Markitanis</h5>
+                <p>
+                    Nicolas Markitanis is a Penetration Tester professional at RUNESEC, a Cypriot company specializing
+                    in offensive Information Security Assessment services. He graduated with honors from Northumbria
+                    University at Newcastle with a degree in Computer Science and a masters degree in Cyber Security
+                    from De Montfort University in Leicester. Nicolas has also started his PhD with his research area
+                    being cybersecurity. He is interested in mobile application security and likes to dabble in a little
+                    bit of everything, especially sciences and books. </p>
+                <p>
+                    He is one of the 4 chapter leaders of OWASP Cyprus, a global non-profit dedicated to improving the
+                    security of web and mobile applications.
+                <p>
+
+                <div class="social">
+                    <a href="https://www.linkedin.com/in/nicolasmarkitanis" target="_blank"><i
+                            class="fa fa-linkedin-square"></i></a>
+
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+</div>
+<div id="theo" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <img src="assets/img/speakers/modal/theo.jpg">
+            <div class="header">
+                <h4><span>{</span> Hackathon: Changing a company's culture</h4>
+                <h6> Theo Andreou
+                </h6>
+                <p> Manager, Alpha</p>
+            </div>
+            <div>
+
+                <p>A software engineer by profession, traveller and food lover at heart.
+                    Theo holds a Computing degree from Imperial College London and a masters on Financial Systems
+                    Engineering from UCL. He has worked in a number of financial corporations in the City of
+                    London and is currently working as a manager in the product development team at Alfa^.
+                </p>
+
+                <div class="social">
+                    <a href="www.linkedin.com/in/theo-andreou" target="_blank"><i
+                            class="fa fa-linkedin-square"></i></a>
+                    <a href="https://twitter.com/AndreouTheo" target="_blank"><i class="fa fa-twitter-square"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="stelios" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <img src="assets/img/speakers/modal/stelios.jpg">
+            <div class="header">
+                <h4><span>{</span>Capture The Flag Field Guide</h4>
+                <h6> Stelios Joannou
+                </h6>
+                <p> Researcher, CS Circle</p>
+            </div>
+            <div>
+                <p>Stelios is a researcher for CS Circles, working on innovating new products and utilizing new
+                    technologies to improve existing ones. After studying Computer Science in London, he then moved to
+                    the University of Leicester where he got his MSc and PhD degree working with succinct data
+                    structures. His weekend plans very often include International CTF competitions, with his favorite
+                    challenge category the `PWNables`.
+                </p>
+                <p><b>Talk Summary: </b>A capture the flag competition, abbreviated as CTF, provides everyone with an
+                    opportunity the learn while solving fun challenges usually within a 48-hour period. In this workshop
+                    we will go over some of the challenges written as part of Cyprus own CTF, Pentest Cyprus. Alone or
+                    as a part of a team a CTF competition is a great way to test and enhance your skills.</p>
+
+                <div class="social">
+                    <a href="https://www.linkedin.com/in/stelios-joannou-272a5921/" target="_blank"><i
+                            class="fa fa-linkedin-square"></i></a>
+                    <a href="mailto:stjoannou@gmail.com" target="_blank"><i class="fa fa-envelope"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="alex" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <img src="assets/img/speakers/modal/alex.jpg">
+            <div class="header">
+                <h4><span>{</span></h4>
+                <h6> Alex Michael
+                </h6>
+                <p> CTO, Plum</p>
+            </div>
+            <div>
+                <p>
+                    Alex is a co-founder and CTO at Plum, where he oversees the technical direction of the product. He is the former payments lead at Tictail. He joined Tictail as engineer #5, built the platform and team that handled payment processing for 150,000 shops and watched the company grow to 60 people with offices in Stockholm and NYC. Prior to Tictail, he built software for retail data analytics, social networks, sports and Bloomberg. He is also the co-founder of Hack Cyprus, a tech movement in Cyprus which runs hackathons and coding schools for youngsters who want to learn how to code. He has an MEng in Computing from Imperial College London.
+
+                </p>
+                <div class="social">
+
+                    <a href="https://twitter.com/alexismic" target="_blank"><i class="fa fa-twitter-square"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="toumbas" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <img src="assets/img/speakers/modal/toumbas.jpg">
+            <div class="header">
+                <h4><span>{</span>From 0 to live in 30 minutes</h4>
+                <h6> Kyriakos Toumbas
+                </h6>
+                <p> CTO, Pixel Actions</p>
+            </div>
+            <div>
+                <p>
+                    Kyriakos Toumbas is the co-founder and CTO at Pixel Actions, a boutique web development agency and
+                    the co-founder of Politica.io, a multi-segment platform for political analysis, real time reporting
+                    and visualisations. He is a hardcore Software Engineer with an extensive experience in Web
+                    Technologies. After graduating from the National Technology Insitute of Athens and the Hunan
+                    University in China, he has worked in various Technology Positions around the world. A NTUA alumni,
+                    a hackathon veteran and a fencer Kyriakos is also a member of the of the hack{cyprus} organising
+                    committee.
+                </p>
+                <div class="social">
+                    <a href="https://www.linkedin.com/in/kyriakos-toumbas-085b8a3b/" target="_blank"><i
+                            class="fa fa-linkedin-square"></i></a>
+                    <a href="https://twitter.com/jentamin" target="_blank"><i class="fa fa-twitter-square"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="vasilis" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <img src="assets/img/speakers/modal/vasilis.jpg">
+            <div class="header">
+                <h4><span>{</span>Microservices with CQRS and Akka
+                </h4>
+                <h6> Vassilis Nicolaou
+                </h6>
+                <p>Senior Software Engineer, Rentalcars.com</p>
+            </div>
+            <div>
+
+
+                <div class="social">
+                    <a href="https://www.linkedin.com/in/vaslabs" target="_blank"><i
+                            class="fa fa-linkedin-square"></i></a>
+                    <a href="https://twitter.com/Vasilis504" target="_blank"><i class="fa fa-twitter-square"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="simos" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <img src="assets/img/speakers/modal/simos.jpg">
+            <div class="header">
+                <h4><span>{</span>Modernisation Methodologies for Resolving API Obsolescence Problems
+                </h4>
+                <h6> Simos Gerasimou
+                </h6>
+                <p> Research Associate, University of York</p>
+            </div>
+            <div>
+                <p>
+                    Simos Gerasimou is a Research Associate at the High-Integrity Systems Engineering research group
+                    within the Department of Computer Science at the University of York. He received his BSc in Computer
+                    Science from the University of Cyprus, Cyprus, in 2010, and his MSc in Software Engineering and PhD
+                    in Computer Science from the University of York, UK, in 2011 and 2017, respectively. His research
+                    interests lie in the area of self-adaptive and autonomous systems with a focus on methods that enable
+                    dependable system adaptation. Other research interests include runtime quantitative verification,
+                    search-based software engineering, model-driven engineering, robotics and artificial intelligence.
+                </p>
+                <div class="social">
+                    <a href="https://www.linkedin.com/in/sgerasimou" target="_blank"><i
+                            class="fa fa-linkedin-square"></i></a>
+                    <a href="https://twitter.com/simosgerasimou" target="_blank"><i class="fa fa-twitter-square"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="workshop" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <img src="assets/img/speakers/modal/workshop.jpg">
+            <div class="header">
+                <h4><span>{</span>Workshop:
+                    Optimizing an API driven UI for performance and usability
+                </h4>
+                <h6>Kyriakos Ktorides, Valentinos Papasavvas
+                </h6>
+                <p> Lead Developers, Mindgeek</p>
+            </div>
+            <div><p><b> Workshop Summary:</b>
+                Lets team-up to build a high performance API and a stellar user experience to go along with it.
+                Challenging for both the front-end and back-end dev species. A walkthrough on how to get an API and UI
+                from the old fashioned bare minimum to the fancy modern.
+            </p>
+
+                <h5>Kyriakos Ktorides</h5>
+                <p>Kyriakos Ktorides is currently the Lead developer for one of MindGeek’s highest earning products,
+                    overseeing its architecture and development team. In his 14-year career in the software engineering
+                    industry he has worked on a multitude of government and semi-government projects as a developer,
+                    consultant and project manager. He has worked with successful start-ups such as Yumbles and
+                    AtYourService, and holds the title of CTO for Enermap where he was responsible for the technical
+                    aspects of Enerfund EU project. He holds a Master’s degree in Computer Science from University
+                    College London.
+                </p>
+
+                <div class="social">
+                    <a href="https://cy.linkedin.com/in/kyriakos-ktorides" target="_blank"><i
+                            class="fa fa-linkedin-square"></i></a>
+
+                </div>
+
+                <hr>
+
+
+                <h5>Valentinos Papasavvas</h5>
+                <p>
+                    Valentinos Papasavvas is a Lead developer in Mindgeek where he is in charge of one of the biggest
+                    and high traffic products of Mindgeek. He studied Computer Science in Crete/Heraklion and did a
+                    Master in Database Professional in Sheffield. He worked for 5 years as a Web Developer in the UK at
+                    a small Digital Agency company which was a growth experience for him / where he gradually developed
+                    his experience. He also worked in one of the biggest online retailers of short dated and residual
+                    stock food and drinks by creating and optimizing the internal web application that was responsible
+                    for order packing and picking. He attended three Hackathons and won at  two of them in the
+                    categories of the Best Company Award and Best use of beacons challenge. He is the creator of Hack
+                    Cyprus Slack and part of the Hack Cyprus board. </p>
+
+
+                <div class="social">
+                    <a href=" https://cy.linkedin.com/in/valentinospapasavvas" target="_blank"><i
+                            class="fa fa-linkedin-square"></i></a>
+
+                </div>
+
+                <hr>
+
+
+                <h5> Nicolas Markitanis</h5>
+                <p>
+                    Nicolas Markitanis is a Penetration Tester professional at RUNESEC, a Cypriot company specializing
+                    in offensive Information Security Assessment services. He graduated with honors from Northumbria
+                    University at Newcastle with a degree in Computer Science and a masters degree in Cyber Security
+                    from De Montfort University in Leicester. Nicolas has also started his PhD with his research area
+                    being cybersecurity. He is interested in mobile application security and likes to dabble in a little
+                    bit of everything, especially sciences and books. </p>
+                <p>
+                    He is one of the 4 chapter leaders of OWASP Cyprus, a global non-profit dedicated to improving the
+                    security of web and mobile applications.
+                <p>
+
+                <div class="social">
+                    <a href="https://www.linkedin.com/in/nicolasmarkitanis" target="_blank"><i
+                            class="fa fa-linkedin-square"></i></a>
+
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<section class="footer black-bg">
+    <div class="container">
+
+        <div class="col-sm-4 col-sm-offset-4 text-center">
+            <div class="widget about-widget">
+                <img src="assets/img/hc-logo.png" class="footer-logo">
+                <p class="text-alt">
+                    <small>Hack Cyprus was created by CEL, with a clear ambition in mind — putting Cyprus on the
+                        technology map. We think Cyprus is able to attract and produce world-class technologists, and we
+                        envision Cyprus being a prominent startup hub in Europe and the world.
+                    </small>
+                </p>
+
+                <a href="http://www.projectcel.com" target="_blank"><img src="assets/img/cel.png" alt="cel"></a>
+            </div>
+        </div>
+
+
+    </div>
+</section>
+
 
 <!--[if lt IE 9]>
 <script type="text/javascript" src="assets/js/jquery-1.11.3.min.js?ver=1"></script>

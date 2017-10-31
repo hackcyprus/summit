@@ -1,149 +1,313 @@
 .preloader-mask {
-    background:#1C1E20;
+    background: #1C1E20;
 }
+
 /********** HEADER ***************/
 .header.header-black .header-wrapper {
-  background:#1C1E20;
-  border-bottom:3px solid  #F0C40F;
+    background: #1C1E20;
+    border-bottom: 3px solid #F0C40F;
 }
-.header-logo  {
-    max-width:200px;
+
+.header-logo {
+    max-width: 200px;
 }
+
 /************ COLORS ***************/
 .base-clr-bg, .overlay.overlay-clr:before, .overlay.overlay-clr[class*="bg"]:before, .base-clr-ovl:before, .btn, .btn.btn-white:hover, .btn.btn-white:focus, .btn.btn-white:active, .btn.btn-white.hovered, .btn.btn-white.pressed, .nav.nav-schedule > li.active, .download-schedule-btn:hover, .download-schedule-btn:focus, .schedule.schedule-light .nav.nav-schedule > li, .schedule.schedule-light .schedule-item .schedule-item-toggle .lecture-icon-wrapper, .tabs-vertical .nav.nav-tabs:before, .tabs-vertical .nav.nav-tabs > li:not(.active) a, .panel-group .panel .panel-heading a, .panel-group-alt .panel > a:not(.collapsed), .table > thead > tr > th, .table > thead > tr > td, .package-column.special-column .sale-label, .package-column.package-bright.special-column, .package-panel .buy-btn, .counter-block.counter-block-solid .counter-box, .gallery.light-slider .description-slider-wrapper .bx-pager-link.active, .gallery-thumb-link:after, .speaker .speaker-socials > li .fa, .contacts-wrapper-color:before, .header.header-color .header-wrapper, .header.header-color .dropdown-menu, .header:not(.header-color):not(.header-black) .navbar-collapse, .navbar-toggle .icon-bar, .call-to-action-section > .overlay:before, .thumb-wrapper .overlay:before, .header .buy-btn {
     color: #000;
-    background-color:#F0C40F;
+    background-color: #F0C40F;
 }
+
 .btn:not(.btn-outline-clr):not(.btn-white):not(.btn-outline) {
     color: #000;
 }
+
 .base-clr-txt, .highlight, a, a:hover, a:active, a:focus, .fa, .icon, .btn.btn-outline-clr, .btn.btn-outline:hover, .btn.btn-outline:focus, .btn.btn-outline:active, .btn.btn-outline.hovered, .btn.btn-outline.pressed, .btn.btn-white, .schedule .tab-content .nav.nav-schedule > li.active > a:not(:hover):not(:active), .schedule .tab-content .nav.nav-schedule > li.active > a:hover, .schedule .tab-content .nav.nav-schedule > li.active > a:focus, .schedule .schedule-item .schedule-item-toggle.collapsed .title .icon, .schedule .schedule-item .schedule-item-body .speaker-name, .schedule.schedule-light .nav.nav-schedule > li.active a, .schedule.schedule-light .nav.nav-schedule > li.active a:hover, .schedule.schedule-light .nav.nav-schedule > li.active a:focus, .schedule.schedule-light .nav.nav-schedule > li.active a *, .schedule.schedule-light .nav.nav-schedule > li.active a:hover *, .schedule.schedule-light .nav.nav-schedule > li.active a:focus *, .schedule.schedule-light .schedule-item .schedule-item-body .speaker-name, .nav.nav-tabs > li.active > a, .nav.nav-tabs > li.active > a:hover, .nav.nav-tabs > li.active > a:focus, .panel-group-alt .panel > a .fa, label.error, input.btn.btn-outline, .pseudo-select .pseudo-select-dropdown-item.selected:not(.disabled), input[type="submit"] + .loading, .testimonial .author-block .name, .package-column .package-title, .package-column.special-column .package-price, .package-column.package-bright:not(.special-column):hover .package-detail, .package-column.package-bright .package-price, .package-column.package-bright.special-column .btn:hover, .package-column.package-bright.special-column .btn:focus, .package-column.package-bright.special-column .btn:active, .package-column.package-bright.special-column .btn.hovered, .package-column.package-bright.special-column .btn.pressed, .counter-box .counter-content > .count, .speaker .name, .balloon .name, .header.header-black .navigation-link:hover, .header.header-black .navigation-link:active, .header.header-black .navigation-link:focus, .header.header-black .navigation-link.active, .dropdown:hover .dropdown-toggle, .dropdown.open .navigation-link.dropdown-toggle, .dropdown.open .navigation-link:not(.active):not(:hover):not(:focus):not(:active).dropdown-toggle, .dropdown-menu .navigation-link:hover, .dropdown-menu .navigation-link:focus, .dropdown-menu .navigation-link:active, .navigation-link:hover, .navigation-link:active, .navigation-link:focus, .navigation-link.active, .header.header-color .navigation-header .buy-btn:hover, .header.header-color .navigation-header .buy-btn:focus, .header.header-color .navigation-header .buy-btn:active, .header.header-color .navigation-header .buy-btn.hovered, .header.header-color .navigation-header .buy-btn.pressed, input.header.header-color .navigation-header .buy-btn, .header .buy-btn {
     color: #F0C40F;
 }
+
 .base-clr-bd, .preloader-mask .preloader, .preloader-mask .preloader:before, .preloader-mask .preloader:after, .btn.btn-outline-clr, .btn.btn-outline-clr:hover, .btn.btn-outline-clr:focus, .btn.btn-outline-clr:active, .btn.btn-outline-clr.hovered, .btn.btn-outline-clr.pressed, .nav.nav-schedule > li:after, .schedule .tab-content .nav.nav-schedule > li.active, .schedule .schedule-item .lecture-icon-wrapper, .download-schedule-btn:hover, .download-schedule-btn:focus, .schedule.schedule-light .nav.nav-schedule, .schedule.schedule-light .tab-content, .nav-wrapper .nav-current, textarea.error, input[type=text].error, input[type=url].error, input[type=tel].error, input[type=number].error, input[type=color].error, input[type=email].error, input[type=email].error, input[type=password].error, .package-column.special-column, .package-column.package-bright, .package-panel, .counter-block.counter-block-border .counter-box, .speaker .speaker-socials > li .fa, .dropdown-toggle:after, .navigation-link.active, .header .buy-btn, .header .buy-btn:hover, .header .buy-btn:focus, .header .buy-btn:active, .header .buy-btn.hovered, .header .buy-btn.pressed {
     border-color: #F0C40F;
 }
+
 /********* BACKGROUNDS ***************/
 .bg1 {
     background-image: url("../img/backgrounds/hackathon2016.jpg");
 }
+
 .bg4 {
     background-image: url("../img/backgrounds/capital-impact.jpg");
-    background-size:cover;
+    background-size: cover;
 }
+
 .bg5 {
     background-image: url("../img/backgrounds/hackathon-wristbands.jpg");
-    background-size:cover;
+    background-size: cover;
 }
+
 /********* INTRODUCTION ************/
 #about {
-    background:#1C1E20;
+    background: #1C1E20;
 }
 
 #about h3, #about h6, #about p {
-    cor:#fff;
+    cor: #fff;
 }
+
 h3.highlight {
     font-family: "PT Sans Caption", Arial, "Helvetica Neue", Helvetica, sans-serif;
     font-size: 80px;
     font-weight: 700;
 }
+
 .yellow-bg {
-    background:#F0C40F;
+    background: #F0C40F;
 }
-.yellow-bg h1,.yellow-bg h2,.yellow-bg h3,.yellow-bg h4,.yellow-bg h5,.yellow-bg h6,.yellow-bg p {
-    color:#1C1E20;
+
+.yellow-bg h1, .yellow-bg h2, .yellow-bg h3, .yellow-bg h4, .yellow-bg h5, .yellow-bg h6, .yellow-bg p {
+    color: #1C1E20;
 }
+
 .black-bg {
-    background:#1C1E20;
+    background: #1C1E20;
 }
-.black-bg h1,.black-bg h2,.black-bg h3,.black-bg h4,.black-bg h5,.black-bg h6,.black-bg p {
-    color:#fff;
+
+.black-bg h1, .black-bg h2, .black-bg h3, .black-bg h4, .black-bg h5, .black-bg h6, .black-bg p {
+    color: #fff;
 }
+
 .black-bg .panel {
-    background:#1C1E20;
+    background: #1C1E20;
 }
+
 .black-bg .schedule.schedule-light .tab-content {
-    background:#1C1E20;
-    border:0px;
+    background: #1C1E20;
+    border: 0px;
 }
+
 .black-bg .schedule.schedule-light .nav.nav-schedule {
-    border:0px;
+    border: 0px;
 }
+
 .schedule.schedule-light .nav.nav-schedule > li.active {
-    background-color:#F0C40F;
+    background-color: #F0C40F;
 
 }
+
 .schedule.schedule-light .nav.nav-schedule > li.active a {
     color: #1C1E20;
 }
+
 .schedule.schedule-light .nav.nav-schedule > li {
-    background-color:#1C1E20;
+    background-color: #1C1E20;
 }
+
 .schedule.schedule-light .nav.nav-schedule > li a {
-color: #F0C40F;
+    color: #F0C40F;
 }
+
 .schedule.schedule-light .nav.nav-schedule > li.active a, .schedule.schedule-light .nav.nav-schedule > li.active a:hover, .schedule.schedule-light .nav.nav-schedule > li.active a:focus {
- color: #1C1E20;
+    color: #1C1E20;
 }
+
 .schedule.schedule-light .nav.nav-schedule > li {
-    border:0px;
+    border: 0px;
 }
+
 /******* NAVIGATION *******/
 .navigation-link.active {
     border-color: #F0C40F;
 }
+
 /******* JUDGES ***********/
 .speaker img:hover {
     -webkit-filter: contrast(100%);
-    filter:contrast(100%)
+    filter: contrast(100%)
 }
+
 /******* FREEBIES *********/
 .freebie-img {
-    max-width:150px;
+    max-width: 150px;
 }
+
 /******* SPONSORS *********/
 .sponsor:not(.inline) {
-    border:0px;
+    border: 0px;
 }
+
 .sponsor.big {
-    height:105px;
+    height: 105px;
 }
+
 /******* FAQs *************/
 .panel {
-    background:transparent;
+    background: transparent;
 }
+
 .panel-group-alt .panel > a.collapsed {
     color: #262627;
     border-color: #000;
 }
+
 .panel-group-alt .panel .panel-body {
-  border-color: #000;
+    border-color: #000;
 }
+
 .panel-group-alt .panel > a {
-    border:1px solid #000;
-    padding:20px;
+    border: 1px solid #000;
+    padding: 20px;
 }
+
 /****** FOOTER ************/
 .footer-logo {
-    width:200px;
+    width: 200px;
 }
+
 /******* HELPERS *********/
 .top32 {
-    margin-top:32px;
+    margin-top: 32px;
 }
+
 .top100 {
-    margin-top:100px;
+    margin-top: 100px;
 }
+
 .white {
-    color:white;
+    color: white;
 }
+
 .yellow.yellow.yellow {
-    color:#F0C40F;
+    color: #F0C40F;
 }
+
 .black {
-    color:#000 !important;
+    color: #000 !important;
 }
+
 .thin {
-    font-weight:200;
+    font-weight: 200;
+}
+
+.lets-talk {
+    width: 100%;
+    margin: 30px 15px 70px 15px;
+    max-width: 700px;
+}
+
+h5.heading-alt {
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+h5.heading-alt span {
+    margin-right: 10px;
+    font-size: 30px;
+    color: white;
+    opacity: 0.5
+}
+
+.btn.book {
+    color: white !important;
+    background-color: rgba(86, 86, 86, 0.5);
+    letter-spacing: 1px;
+    font-size: 18px;
+    width: 100%;
+    font-weight: 500;
+    border: 1px solid rgb(168, 168, 168);
+    max-width: 700px;
+    padding: 15px;
+}
+
+.btn.book:hover {
+    background-color: white;
+    color: black !important;
+    border-color: white;
+}
+
+.sponsors h6 {
+    opacity: 0.7;
+    font-weight: 500;
+    margin-bottom: 00px;
+}
+
+.sponsors hr {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    opacity: 0.8
+}
+
+.speakers h2 {
+    color: #F0C40F;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.speakers {
+    background-attachment: fixed;
+    background-size: cover;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-top: 5px solid #F0C40F;
+}
+
+.speakers a img {
+    filter: grayscale(1);
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s;
+    border: 2px solid rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+}
+
+.speakers a:hover img {
+    filter: grayscale(0);
+    border-color: #F0C40F;
+    -webkit-transform: scale(1.02);
+    -moz-transform: scale(1.02);
+    -ms-transform: scale(1.02);
+    -o-transform: scale(1.02);
+    transform: scale(1.02);
+    -webkit-box-shadow: 0 0 15px black;
+    -moz-box-shadow: 0 0 15px black;
+    box-shadow: 0 0 15px black;
+}
+
+.modal .header {
+    background-color: #1C1E20;
+
+}
+
+.modal-content > div {
+    padding: 10px 20px;
+    position: relative;
+    top: -10px;
+}
+
+.modal .header h4, .modal .header p, .modal .header h6 {
+    color: #eeeeee;
+}
+.modal h4{position:relative; padding-left:35px;}
+.modal h4 span {
+    color: #F0C40F;
+    font-size: 50px;
+    position:absolute; left:0px; top:-10px;
+}
+
+.modal .header p, .modal .header h6 {
+    margin-left: 35px;
+    opacity: 0.8;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.modal .social a i {
+    font-size: 30px;
+    color: #1C1E20;
+    margin-right:10px
+}
+
+.modal .social a:hover i {
+    color: #F0C40F;
 }
