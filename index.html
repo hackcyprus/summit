@@ -579,6 +579,15 @@ practical and theoretical knowledge to an audience hungry to learn.">
 </p><p>
 He has mainly worked with Java, Scala and Akka along with various AWS technologies. On his free time I work on personal and 3rd party open source projects or video streaming programming paradigms. On his real free time I play football, table tennis or road tripping.
                 </p>
+                <p><b>Talk Summary:</b>
+In the world of microservices, the need for distribution, high availability and optimal performance imply high level technology debt both in terms of infrastructure and code while they promise to reduce the technical depth of service monoliths. 
+</p><p>
+Are there any paradigms that guide us into building high performing and highly available services? What are the needs of containerisation , partitioned networking and service discovery? Do all these considerations worth the effort of building a contained, domain specific service?
+</p><p>
+The problem at hand is the requirement for a low latency , highly available microservice. To achieve this the need for partitioned network leads us to a world of eventual consistency due to the CAP theorem barrier . What are the assumptions that are necessary to achieve such a goal? How do we tackle the complexity of the technology choices from infrastructure to programming languages?
+</p><p>
+The paradigm discussed is inspired by Command Query Responsibility Segragation pattern (CQRS) using Akka (http://akka.io) to achieve a low response time, always available domain specific distributed cache. The results were astounding with 95th percentile response times being at 32ms . The combination of AWS services such as kinesis, dynamodb and ecs along with Akka and docker composed a complex but reusable solution to build containirised, clustered, always available, low response time services.
+                </p>
             </div>
             <div>
 
