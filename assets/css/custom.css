@@ -311,3 +311,9 @@ h5.heading-alt span {
 .modal .social a:hover i {
     color: #F0C40F;
 }
+
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
