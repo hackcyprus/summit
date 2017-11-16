@@ -311,3 +311,18 @@ h5.heading-alt span {
 .modal .social a:hover i {
     color: #F0C40F;
 }
+
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+
+.sponsors h4{margin-bottom:20px; margin-top:20px;}
+@media only screen and (max-width:768px) {
+    .sponsors h5{ margin-top:20px;}
+
+}
+.sponsors .main{margin-top:15px;}
+.sponsors .big{margin-top:-10px}
+.sponsors hr{ margin-top:0; margin-bottom:0;}
